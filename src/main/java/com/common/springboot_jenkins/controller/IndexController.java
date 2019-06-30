@@ -9,4 +9,9 @@ public class IndexController {
     public String index() {
         return "这是首页";
     }
+
+    @RequestMapping("/index")
+    public String indexHome() {
+        return "这是/index";
+    }
 }
